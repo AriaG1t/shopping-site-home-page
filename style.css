@@ -1,0 +1,114 @@
+.backg{
+    margin: 20px 50px;
+    background-image: linear-gradient(to right, rgb(224, 224, 70), rgb(233, 56, 56));
+    background-size: 400%;
+    animation: bgMove 5s infinite alternate ease;
+}
+
+@keyframes bgMove {
+    0%{
+        background-position: 0;
+    }
+
+    100%{
+        background-position: 100%;
+    }
+}
+
+.tShadow{
+    color: #f8a761;
+    margin-top: 100px;
+    text-shadow: 2px 5px 6px rgba(0,0,0,0.5), 0px -5px 35px rgba(0, 0, 0, 0.5);
+}
+
+.backg2{
+    background-image: linear-gradient(45deg, rgb(190, 182, 45), rgb(81, 81, 81));
+    background-size: 400%;
+    animation: bgMove 5s infinite alternate ease;
+}
+
+.tShadow2{
+    color: #fff4a3;
+    margin-top: 100px;
+    text-shadow: 2px 5px 6px rgba(0,0,0,0.5), 0px -5px 35px rgba(0, 0, 0, 0.5);
+}
+
+.wfix{
+    width: 66%;
+}
+
+.tShadow3{
+    margin-top: 100px;
+    text-shadow: 2px 5px 6px rgba(0,0,0,0.5), 0px -5px 35px rgba(0, 0, 0, 0.5);
+}
+
+.accordion2 {
+    --bs-accordion-color: #000000;
+    --bs-accordion-bg: #bbd2dd;
+    --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
+    --bs-accordion-border-color: #1d1d1d;
+    --bs-accordion-border-width: var(--bs-border-width);
+    --bs-accordion-border-radius: var(--bs-border-radius);
+    --bs-accordion-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+    --bs-accordion-btn-padding-x: 1.25rem;
+    --bs-accordion-btn-padding-y: 1rem;
+    --bs-accordion-btn-color: var(--bs-body-color);
+    --bs-accordion-btn-bg: var(--bs-accordion-bg);
+    --bs-accordion-btn-icon: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23212529' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='m2 5 6 6 6-6'/%3e%3c/svg%3e);
+    --bs-accordion-btn-icon-width: 1.25rem;
+    --bs-accordion-btn-icon-transform: rotate(-180deg);
+    --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;
+    --bs-accordion-btn-active-icon: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23052c65' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='m2 5 6 6 6-6'/%3e%3c/svg%3e);
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    --bs-accordion-body-padding-x: 1.25rem;
+    --bs-accordion-body-padding-y: 1rem;
+    --bs-accordion-active-color: #000000;
+    --bs-accordion-active-bg: #8ac2dd;
+    width: 60%;
+}
+
+.icon{
+    font-size: 50px;
+}
+.bi-instagram{
+    color: #da01a4;
+}
+
+.bi-instagram:hover{
+    color: #a90380;
+}
+
+.bi-telegram{
+    color: 0d6efd;
+}
+
+.bi-telegram:hover{
+    color: #0354ce;
+}
+
+.bi-whatsapp{
+    color: #00b706;
+}
+
+.bi-whatsapp:hover{
+    color: #008d05
+}
+
+.wfix2{
+    width: 88%;
+}
+
+.sl-btn{
+    width: 50px;
+    position: absolute;
+    top: 50%;
+}
+
+#left{
+    left: 15px;
+}
+
+#right{
+    right: 15px;
+}
+

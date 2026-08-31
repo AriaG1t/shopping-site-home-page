@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../bootstrap-icons-1.13.1/bootstrap-icons.css">
+    <link rel="stylesheet" href="../../bootstrap-5.3.7-dist/css/bootstrap.min.css">
+</head>
+<body class="bg-dark text-light pt-5">
+<nav class="navbar fixed-top navbar-dark navbar-expand-sm bg-dark">
+  <div class="container-md">
+    <a class="navbar-brand" href="#"><i class="bi bi-bag"></i></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#header">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#clothes">Clothes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#special">Special Offers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About Us</a>
+        </li>
+      </ul>
+      <span class="navbar-text me-3">
+        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <i class="bi bi-person-circle"></i> Login
+        </button>
+      </span>
+    </div>
+  </div>
+</nav>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content bg-dark text-light">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Login Page</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Remember me</label>
+  </div> 
+  <label for="">Don't have an account? <a type="button" class="text-success" data-bs-toggle="modal" data-bs-target="#create"> Create one</a>
+  </label> <br> <br>
+  <button type="submit" class="btn btn-success" data-bs-dismiss="modal">Submit</button>
+  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+</form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="create" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content bg-dark text-light">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Sign Up Page</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Re-enter Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Remember me</label>
+  </div> 
+  <button type="submit" class="btn btn-success" data-bs-dismiss="modal">Submit</button>
+  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+</form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="mt-5 container-md" id="header">
+  <div class="row d-flex align-items-center justify-content-center">
+    <div class="col-12 col-sm-6">
+      <img class="img-fluid rounded" src="images/clothes-shop-interior-banner-flat-cartoon-design-boutique-showroom-shelves-hangers-with-women-men-clothing-discount-offers-shopping-sale-vector-illustration-web-background_198565-1025.png" alt="">
+    </div>
+    <h1 class="col-12 col-sm-5 ms-3 display-5 mt-3 text-center">Clothes Shop <br>
+    We Got Everything You Want!</h1>
+  </div>
+</div>
+<h1 class="text-center tShadow yellow" id="special">Special Offers</h1>
+<div class="backg container-sm rounded shadow p-3" style="position: relative;">
+  <div class="row d-flex justify-content-center text-center">
+    <div class="card bg-dark text-light col-md-4 mx-4 my-4 myItem" style="width: 18rem;">
+      <img class="img-fluid" src="images/534b0d0bc844740926284c62d16fb492-removebg-preview.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Lether Jacket</h5>
+        <p class="card-text">Size: x <br> Color: Black <br> Price: <span class="text-decoration-line-through text-danger">199.99$</span> <span class="text-warning">149.99$</span></p>
+        <a href="#" class="btn btn-success">Buy</a>
+      </div>
+    </div>
+    <div class="card bg-dark text-light col-md-4 mx-4 pt-3 my-4 myItem" style="width: 18rem;">
+      <div><img class="w-50 mb-1" src="images/clothespng.parspng.com-10.png" class="card-img-top" alt="..."></div>
+      <div class="card-body">
+        <h5 class="card-title">Dress</h5>
+        <p class="card-text">Size: x <br> Color: Red Pink Black White <br> Price: <span class="text-decoration-line-through text-danger">119.99$</span> <span class="text-warning">79.99$</span></p>
+        <a href="#" class="btn btn-success">Buy</a>
+      </div>
+    </div>
+    <div class="card bg-dark text-light col-md-4 mx-4 my-4 myItem" style="width: 18rem;">
+      <img class="img-fluid" src="images/stylish-tshirt-abstract-pattern-t-shirt-design-i1xXY0Eb_t-removebg-preview.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Stylish T-Shirt</h5>
+        <p class="card-text">Size: x <br> Color: Red Blue Green<br> Price: <span class="text-decoration-line-through text-danger">69.99$</span> <span class="text-warning">39.99$</span></p>
+        <a href="#" class="btn btn-success">Buy</a>
+      </div>
+    </div>
+  </div>
+  <button class="btn bg-dark text-light sl-btn" id="left">L</button>
+  <button class="btn bg-dark text-light sl-btn" id="right">R</button>
+</div>
+
+<h1 class="text-center tShadow2 yellow" id="clothes">Clothes</h1>
+<div class="clothes container-sm backg2 rounded my-4">
+  <div class="row d-flex justify-content-center text-center px-4">
+      <div class="card bg-dark text-light col-md-4 col-12 d-flex align-items-center m-3" style="width: 18rem;">
+        <img class="img-fluid wfix" src="images/Beautiful-casual-jeans-pants-and-clothes-isolated-on-transparent-background-PNG-removebg-preview.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Jeans</h5>
+          <p class="card-text">Size: x <br> Color: Blue Black Gray<br> Price: <span class="text-warning">69.99$</span></p>
+          <a href="#" class="btn btn-success">Buy</a>
+        </div>
+      </div>
+      <div class="card bg-dark text-light col-md-4 col-12 m-3" style="width: 18rem;">
+        <img class="img-fluid" src="images/Black-t-shirt-for-men-on-transparent-background-PNG-1-removebg-preview.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">T-Shirt</h5>
+          <p class="card-text">Size: x <br> Color: Black Blue Gray Red<br> Price: <span class="text-warning">29.99$</span></p>
+          <a href="#" class="btn btn-success">Buy</a>
+        </div>
+      </div>
+      <div class="card bg-dark text-light col-md-4 col-12 m-3" style="width: 18rem;">
+        <img class="img-fluid" src="images/Black-socks-for-clothing-isolated-on-transparent-background-PNG-removebg-preview.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Socks</h5>
+          <p class="card-text">Size: x <br> Color: Black Gray White<br> Price: <span class="text-warning">9.99$</span></p>
+          <a href="#" class="btn btn-success">Buy</a>
+        </div>
+      </div>
+      <div class="card bg-dark text-light col-md-4 col-12 m-3" style="width: 18rem;">
+        <img class="img-fluid mb-5 mt-2" src="images/Blue-cap-illustration-on-transparent-background-PNG-removebg-preview.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Cap</h5>
+          <p class="card-text">Size: x <br> Color: Blue Red Black Gray<br> Price: <span class="text-warning">19.99$</span></p>
+          <a href="#" class="btn btn-success">Buy</a>
+        </div>
+      </div>
+      <div class="card bg-dark text-light col-md-4 col-12 m-3 d-flex align-items-center" style="width: 18rem;">
+        <img class="img-fluid wfix mt-4" src="images/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTA4L2hpcHBvdW5pY29ybl9yZWFsX3Bob3RvX29mX2FfYmxhY2tfam9nZ2VyX3BhbnRfX2lzb2xhdGVkX29uX3doaV83NzdmMGQyZS0xMGJhLTRjOWQtYmNiNy0wNmNkZDdiYjVjNDIucG5n-removebg-previe.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pants</h5>
+          <p class="card-text">Size: x <br> Color: Black Blue Gray Red<br> Price: <span class="text-warning">49.99$</span></p>
+          <a href="#" class="btn btn-success">Buy</a>
+        </div>
+      </div>
+      <div class="card bg-dark text-light col-md-4 col-12 m-3 d-flex align-items-center" style="width: 18rem;">
+        <img class="img-fluid wfix2" src="images/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAzL3BmLXM3Mi1wYWktMTAtMDEtbW9ja3VwLWEtam9iMTc2OS5wbmc-removebg-preview.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Skirt</h5>
+          <p class="card-text">Size: x <br> Color: Black Gray White Pink Red Blue<br> Price: <span class="text-warning">14.99$</span></p>
+          <a href="#" class="btn btn-success">Buy</a>
+        </div>
+      </div>
+      <div class="card bg-dark text-light col-md-4 col-12 m-3" style="width: 18rem;">
+        <img class="img-fluid" src="images/Tshirtpng.parspng.com_.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">T-Shirt</h5>
+          <p class="card-text">Size: x <br> Color: Red Blue Black Gray white Yellow<br> Price: <span class="text-warning">19.99$</span></p>
+          <a href="#" class="btn btn-success">Buy</a>
+        </div>
+      </div>
+      <div class="card bg-dark text-light col-md-4 col-12 m-3" style="width: 18rem;">
+        <img class="img-fluid mt-2" src="images/dress-socks-shoe-clothing-toe-socks-png-favpng-vVcQVGAdky41WHuGR1F0jQeW6_t-removebg-preview.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Socks</h5>
+          <p class="card-text">Size: x <br> Color: Black Gray White<br> Price: <span class="text-warning">49.99$</span></p>
+          <a href="#" class="btn btn-success">Buy</a>
+        </div>
+      </div>
+      <div class="card bg-dark text-light d-flex align-items-center col-md-4 col-12 m-3" style="width: 18rem;">
+        <img class="img-fluid wfix2 mt-3" src="images/pngimg.com - jacket_PNG8058.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Warm Jacket</h5>
+          <p class="card-text">Size: x <br> Color: Black Gray White Red Blue<br> Price: <span class="text-warning">69.99$</span></p>
+          <a href="#" class="btn btn-success">Buy</a>
+        </div>
+      </div>
+  </div>
+</div>
+
+<div class="about" id="about">
+  <h1 class="text-center tShadow3 yellow mb-4">About us</h1>
+  <div class="container-md bg-dark d-flex justify-content-center">
+    <div class="accordion2" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Where Are We?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et iure facilis alias necessitatibus eos repellendus magni adipisci excepturi nam ipsum totam eligendi impedit, rem corporis aut quidem placeat nihil sint?
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Our Products
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, magni fugiat minima est nostrum tenetur maiores beatae voluptate eaque repudiandae modi consequuntur, quam libero ea? Quam perspiciatis suscipit voluptates architecto.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Shipping Deatails
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt alias voluptate culpa nisi enim iste deleniti repellendus possimus dicta asperiores. Inventore, sint voluptates! Aspernatur nulla voluptatibus neque aliquam corporis fuga.
+          </div>
+        </div>
+      </div>
+      <div class="social text-center my-4">
+        <a href=""><i class="bi bi-instagram icon mx-4"></i></a>
+        <a href=""><i class="bi bi-telegram icon mx-4"></i></a>
+        <a href=""><i class="bi bi-whatsapp icon mx-4"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br><br><br><br> 
+
+    <script src="../../bootstrap-5.3.7-dist/js/bootstrap.bundle.js"></script>
+    <script src="slider.js"></script>
+</body>
+</html>
